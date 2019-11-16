@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="49959" started-at="2019-11-16T20:22:15Z" finished-at="2019-11-16T20:23:05Z">
+    <groups>
+    </groups>
+    <test name="DemoTestFirefox" duration-ms="14243" started-at="2019-11-16T20:22:15Z" finished-at="2019-11-16T20:22:30Z">
+      <class name="selenium.selfstudy.com.MultiBrowserTesting">
+        <test-method status="PASS" signature="runTestInMultipleBrowser(java.lang.String)[pri:0, instance:selenium.selfstudy.com.MultiBrowserTesting@531be3c5]" name="runTestInMultipleBrowser" duration-ms="14227" started-at="2019-11-17T01:52:16Z" finished-at="2019-11-17T01:52:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestInMultipleBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.selfstudy.com.MultiBrowserTesting@531be3c5]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-11-17T01:52:30Z" finished-at="2019-11-17T01:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.selfstudy.com.MultiBrowserTesting -->
+    </test> <!-- DemoTestFirefox -->
+    <test name="DemoTestChrome" duration-ms="17784" started-at="2019-11-16T20:22:15Z" finished-at="2019-11-16T20:22:33Z">
+      <class name="selenium.selfstudy.com.MultiBrowserTesting">
+        <test-method status="PASS" signature="runTestInMultipleBrowser(java.lang.String)[pri:0, instance:selenium.selfstudy.com.MultiBrowserTesting@35fb3008]" name="runTestInMultipleBrowser" duration-ms="17770" started-at="2019-11-17T01:52:16Z" finished-at="2019-11-17T01:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestInMultipleBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.selfstudy.com.MultiBrowserTesting@35fb3008]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-11-17T01:52:33Z" finished-at="2019-11-17T01:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.selfstudy.com.MultiBrowserTesting -->
+    </test> <!-- DemoTestChrome -->
+    <test name="seleniumTestCases" duration-ms="49959" started-at="2019-11-16T20:22:15Z" finished-at="2019-11-16T20:23:05Z">
+      <class name="selenium.selfstudy.com.DataBaseConnectivityTest">
+        <test-method status="PASS" signature="verifyEmployeeDetailAddition()[pri:1, instance:selenium.selfstudy.com.DataBaseConnectivityTest@26ba2a48]" name="verifyEmployeeDetailAddition" duration-ms="207" started-at="2019-11-17T01:53:05Z" finished-at="2019-11-17T01:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmployeeDetailAddition -->
+        <test-method status="PASS" signature="getEmployeeDateils()[pri:2, instance:selenium.selfstudy.com.DataBaseConnectivityTest@26ba2a48]" name="getEmployeeDateils" duration-ms="20" started-at="2019-11-17T01:53:05Z" finished-at="2019-11-17T01:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeDateils -->
+      </class> <!-- selenium.selfstudy.com.DataBaseConnectivityTest -->
+      <class name="selenium.selfstudy.com.BrokenListTest">
+        <test-method status="PASS" signature="veirfyBrokenLinkTest()[pri:0, instance:selenium.selfstudy.com.BrokenListTest@38082d64]" name="veirfyBrokenLinkTest" duration-ms="49718" started-at="2019-11-17T01:52:16Z" finished-at="2019-11-17T01:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- veirfyBrokenLinkTest -->
+      </class> <!-- selenium.selfstudy.com.BrokenListTest -->
+    </test> <!-- seleniumTestCases -->
+  </suite> <!-- TestSuite -->
+</testng-results>

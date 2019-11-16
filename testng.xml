@@ -4,11 +4,24 @@
 	<listeners>
 		<listener class-name="selenium.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
+	
+	<test name="seleniumTestCases">
+		
+		<classes>
+
+			<class name="selenium.selfstudy.com.BrokenListTest" />
+			<class name="selenium.selfstudy.com.DataBaseConnectivityTest" />
+			
+		</classes>
+	</test> <!-- DemoTest -->
+	
+	
 	<test name="DemoTestChrome">
 		<parameter name="browsers" value="chrome"></parameter>
 		<classes>
 
 			<class name="selenium.selfstudy.com.MultiBrowserTesting" />
+			
 		</classes>
 	</test> <!-- DemoTest -->
 
