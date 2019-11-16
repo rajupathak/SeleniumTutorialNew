@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="selenium.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="DemoTestChrome(failed)" parallel="tests">
+    <parameter name="browsers" value="chrome"/>
+    <classes>
+      <class name="selenium.selfstudy.com.MultiBrowserTesting">
+        <methods>
+          <include name="runTestInMultipleBrowser" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- selenium.selfstudy.com.MultiBrowserTesting -->
+    </classes>
+  </test> <!-- DemoTestChrome(failed) -->
+  <test name="DemoTestFirefox(failed)" parallel="tests">
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="selenium.selfstudy.com.MultiBrowserTesting">
+        <methods>
+          <include name="runTestInMultipleBrowser" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- selenium.selfstudy.com.MultiBrowserTesting -->
+    </classes>
+  </test> <!-- DemoTestFirefox(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

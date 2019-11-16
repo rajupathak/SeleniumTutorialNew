@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests">
+	<listeners>
+		<listener class-name="selenium.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="DemoTestChrome">
+		<parameter name="browsers" value="chrome"></parameter>
+		<classes>
+
+			<class name="selenium.selfstudy.com.MultiBrowserTesting" />
+		</classes>
+	</test> <!-- DemoTest -->
+
+	<test name="DemoTestFirefox">
+		<parameter name="browsers" value="firefox"></parameter>
+		<classes>
+
+			<class name="selenium.selfstudy.com.MultiBrowserTesting" />
+		</classes>
+	</test> <!-- DemoTest -->
+
+
+</suite> <!-- TestSuite -->
