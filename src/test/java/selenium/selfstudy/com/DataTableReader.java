@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import selenium.base.com.Base;
@@ -18,7 +19,7 @@ public class DataTableReader extends Base {
 	@Test
 	public void readDataTableTest() {
 
-		obj.initialize("https://www.w3schools.com/html/html_tables.asp","chrome");
+		obj.initialize("https://www.w3schools.com/html/html_tables.asp", "chrome");
 
 		// Total number of row in datatable
 
@@ -41,7 +42,7 @@ public class DataTableReader extends Base {
 			readerObj.addColumn("TableData", "Comapny");
 			readerObj.addColumn("TableData", "Conatct");
 			readerObj.addColumn("TableData", "Country");
-			
+
 		}
 		System.out.println("Comapny" + " " + "Conatct" + " " + "Country");
 		for (int i = 2; i <= totalRow.size(); i++) {
@@ -63,4 +64,8 @@ public class DataTableReader extends Base {
 
 	}
 
+	@AfterMethod
+	public static void tearDown() {
+		Base.tearDown();
+	}
 }

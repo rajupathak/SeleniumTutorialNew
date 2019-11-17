@@ -13,10 +13,10 @@ import selenium.util.com.WebEventListener;
 public class Base {
 	public static WebDriver driver;
 	public static EventFiringWebDriver edriver;
-	
-	public static WebEventListener listnerobj= new WebEventListener();
-	
-	public void initialize(String URL, String browserName) {
+
+	public static WebEventListener listnerobj = new WebEventListener();
+
+	public static void initialize(String URL, String browserName) {
 
 		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
@@ -27,15 +27,20 @@ public class Base {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
-		edriver= new EventFiringWebDriver(driver);
+		edriver = new EventFiringWebDriver(driver);
 		edriver.register(listnerobj);
 		driver = edriver;
-		
-        driver.get(URL);
+
+		driver.get(URL);
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 
 	}
 
+	public static void tearDown() {
+		if (driver != null) {
+			driver.close();
+		}
+	}
 }

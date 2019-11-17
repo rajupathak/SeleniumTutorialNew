@@ -3,7 +3,10 @@ package selenium.selfstudy.com;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+
+import selenium.base.com.Base;
 
 /**
  * Unit test for simple App.
@@ -29,10 +32,11 @@ public class DataBaseConnectivityTest {
 		ResultSet result = object.getData(query);
 
 		while (result.next()) {
-			System.out.println(result.getString(1) + " " + result.getString(2) +" "+ result.getString(3));
+			System.out.println(result.getString(1) + " " + result.getString(2) + " " + result.getString(3));
 
 		}
 
 	}
 
+	
 }

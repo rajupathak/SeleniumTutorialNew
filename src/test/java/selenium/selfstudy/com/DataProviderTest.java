@@ -2,6 +2,7 @@ package selenium.selfstudy.com;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -24,4 +25,8 @@ public class DataProviderTest extends Base {
 		password.sendKeys(passWord);
 	}
 
+	@AfterMethod
+	public static void tearDown() {
+		Base.tearDown();
+	}
 }

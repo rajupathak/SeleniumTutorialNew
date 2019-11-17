@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="selenium.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="seleniumTestCases(failed)">
     <classes>
-      <class name="selenium.selfstudy.com.DataProviderTest">
+      <class name="selenium.selfstudy.com.DataBaseConnectivityTest">
         <methods>
-          <include name="loginWithDiffrentCredentials"/>
+          <include name="getEmployeeDateils"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- selenium.selfstudy.com.DataProviderTest -->
+      </class> <!-- selenium.selfstudy.com.DataBaseConnectivityTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- seleniumTestCases(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
