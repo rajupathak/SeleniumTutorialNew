@@ -1,141 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="114620" started-at="2019-11-17T19:26:01Z" finished-at="2019-11-17T19:27:56Z">
+  <suite name="Default suite" duration-ms="38669" started-at="2019-11-21T10:23:06Z" finished-at="2019-11-21T10:23:44Z">
     <groups>
     </groups>
-    <test name="seleniumTestCases" duration-ms="94957" started-at="2019-11-17T19:26:01Z" finished-at="2019-11-17T19:27:36Z">
-      <class name="selenium.selfstudy.com.DataTableReader">
-        <test-method status="PASS" signature="readDataTableTest()[pri:0, instance:selenium.selfstudy.com.DataTableReader@20deea7f]" name="readDataTableTest" duration-ms="19430" started-at="2019-11-18T00:56:49Z" finished-at="2019-11-18T00:57:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readDataTableTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.selfstudy.com.DataTableReader@20deea7f]" name="tearDown" is-config="true" duration-ms="383" started-at="2019-11-18T00:57:09Z" finished-at="2019-11-18T00:57:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium.selfstudy.com.DataTableReader -->
-      <class name="selenium.selfstudy.com.DataBaseConnectivityTest">
-        <test-method status="PASS" signature="verifyEmployeeDetailAddition()[pri:1, instance:selenium.selfstudy.com.DataBaseConnectivityTest@7193666c]" name="verifyEmployeeDetailAddition" duration-ms="244" started-at="2019-11-18T00:57:36Z" finished-at="2019-11-18T00:57:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEmployeeDetailAddition -->
-        <test-method status="PASS" signature="getEmployeeDateils()[pri:2, instance:selenium.selfstudy.com.DataBaseConnectivityTest@7193666c]" name="getEmployeeDateils" duration-ms="29" started-at="2019-11-18T00:57:36Z" finished-at="2019-11-18T00:57:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getEmployeeDateils -->
-      </class> <!-- selenium.selfstudy.com.DataBaseConnectivityTest -->
-      <class name="selenium.selfstudy.com.BrokenListTest">
-        <test-method status="PASS" signature="veirfyBrokenLinkTest()[pri:0, instance:selenium.selfstudy.com.BrokenListTest@5119fb47]" name="veirfyBrokenLinkTest" duration-ms="45675" started-at="2019-11-18T00:56:01Z" finished-at="2019-11-18T00:56:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- veirfyBrokenLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.selfstudy.com.BrokenListTest@5119fb47]" name="tearDown" is-config="true" duration-ms="2326" started-at="2019-11-18T00:56:47Z" finished-at="2019-11-18T00:56:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium.selfstudy.com.BrokenListTest -->
-      <class name="selenium.selfstudy.com.DataProviderTest">
-        <test-method status="PASS" signature="loginWithDiffrentCredentials(java.lang.String, java.lang.String)[pri:0, instance:selenium.selfstudy.com.DataProviderTest@3835c46]" name="loginWithDiffrentCredentials" duration-ms="7207" started-at="2019-11-18T00:57:09Z" data-provider="dataProvider" finished-at="2019-11-18T00:57:16Z">
+    <test name="Default test" duration-ms="38669" started-at="2019-11-21T10:23:06Z" finished-at="2019-11-21T10:23:44Z">
+      <class name="selenium.selfstudy.com.DiffrentDataForDiffrentMethodTest">
+        <test-method status="PASS" signature="verifyDiffrentDataTest(java.lang.String, java.lang.String)[pri:1, instance:selenium.selfstudy.com.DiffrentDataForDiffrentMethodTest@3ffc5af1]" name="verifyDiffrentDataTest" duration-ms="7177" started-at="2019-11-21T15:53:06Z" data-provider="dataprovider" finished-at="2019-11-21T15:53:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rajesh1]]>
+                <![CDATA[John1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Pathak1]]>
+                <![CDATA[Smith1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithDiffrentCredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.selfstudy.com.DataProviderTest@3835c46]" name="tearDown" is-config="true" duration-ms="2086" started-at="2019-11-18T00:57:16Z" finished-at="2019-11-18T00:57:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="loginWithDiffrentCredentials(java.lang.String, java.lang.String)[pri:0, instance:selenium.selfstudy.com.DataProviderTest@3835c46]" name="loginWithDiffrentCredentials" duration-ms="6458" started-at="2019-11-18T00:57:19Z" data-provider="dataProvider" finished-at="2019-11-18T00:57:25Z">
+        </test-method> <!-- verifyDiffrentDataTest -->
+        <test-method status="PASS" signature="verifyDiffrentDataTest(java.lang.String, java.lang.String)[pri:1, instance:selenium.selfstudy.com.DiffrentDataForDiffrentMethodTest@3ffc5af1]" name="verifyDiffrentDataTest" duration-ms="6162" started-at="2019-11-21T15:53:13Z" data-provider="dataprovider" finished-at="2019-11-21T15:53:19Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rajesh2]]>
+                <![CDATA[Javin1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Pathak2]]>
+                <![CDATA[Paul1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithDiffrentCredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.selfstudy.com.DataProviderTest@3835c46]" name="tearDown" is-config="true" duration-ms="2085" started-at="2019-11-18T00:57:25Z" finished-at="2019-11-18T00:57:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="loginWithDiffrentCredentials(java.lang.String, java.lang.String)[pri:0, instance:selenium.selfstudy.com.DataProviderTest@3835c46]" name="loginWithDiffrentCredentials" duration-ms="6654" started-at="2019-11-18T00:57:27Z" data-provider="dataProvider" finished-at="2019-11-18T00:57:34Z">
+        </test-method> <!-- verifyDiffrentDataTest -->
+        <test-method status="PASS" signature="verifyDiffrentDataTest(java.lang.String, java.lang.String)[pri:1, instance:selenium.selfstudy.com.DiffrentDataForDiffrentMethodTest@3ffc5af1]" name="verifyDiffrentDataTest" duration-ms="6024" started-at="2019-11-21T15:53:19Z" data-provider="dataprovider" finished-at="2019-11-21T15:53:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rajesh3]]>
+                <![CDATA[James1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[Pathak3]]>
+                <![CDATA[Gosling1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginWithDiffrentCredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.selfstudy.com.DataProviderTest@3835c46]" name="tearDown" is-config="true" duration-ms="2326" started-at="2019-11-18T00:57:34Z" finished-at="2019-11-18T00:57:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium.selfstudy.com.DataProviderTest -->
-    </test> <!-- seleniumTestCases -->
-    <test name="DemoTestChrome" duration-ms="9320" started-at="2019-11-17T19:27:36Z" finished-at="2019-11-17T19:27:46Z">
-      <class name="selenium.selfstudy.com.MultiBrowserTesting">
-        <test-method status="PASS" signature="runTestInMultipleBrowser(java.lang.String)[pri:0, instance:selenium.selfstudy.com.MultiBrowserTesting@6c80d78a]" name="runTestInMultipleBrowser" duration-ms="7001" started-at="2019-11-18T00:57:36Z" finished-at="2019-11-18T00:57:43Z">
+        </test-method> <!-- verifyDiffrentDataTest -->
+        <test-method status="PASS" signature="verifySameDataTest(java.lang.String, java.lang.String)[pri:2, instance:selenium.selfstudy.com.DiffrentDataForDiffrentMethodTest@3ffc5af1]" name="verifySameDataTest" duration-ms="6662" started-at="2019-11-21T15:53:25Z" data-provider="dataprovider" finished-at="2019-11-21T15:53:32Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Smith]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTestInMultipleBrowser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.selfstudy.com.MultiBrowserTesting@6c80d78a]" name="tearDown" is-config="true" duration-ms="2316" started-at="2019-11-18T00:57:43Z" finished-at="2019-11-18T00:57:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium.selfstudy.com.MultiBrowserTesting -->
-    </test> <!-- DemoTestChrome -->
-    <test name="DemoTestFirefox" duration-ms="10309" started-at="2019-11-17T19:27:46Z" finished-at="2019-11-17T19:27:56Z">
-      <class name="selenium.selfstudy.com.MultiBrowserTesting">
-        <test-method status="PASS" signature="runTestInMultipleBrowser(java.lang.String)[pri:0, instance:selenium.selfstudy.com.MultiBrowserTesting@5e0826e7]" name="runTestInMultipleBrowser" duration-ms="9444" started-at="2019-11-18T00:57:46Z" finished-at="2019-11-18T00:57:55Z">
+        </test-method> <!-- verifySameDataTest -->
+        <test-method status="PASS" signature="verifySameDataTest(java.lang.String, java.lang.String)[pri:2, instance:selenium.selfstudy.com.DiffrentDataForDiffrentMethodTest@3ffc5af1]" name="verifySameDataTest" duration-ms="6385" started-at="2019-11-21T15:53:32Z" data-provider="dataprovider" finished-at="2019-11-21T15:53:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[Javin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Paul]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTestInMultipleBrowser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.selfstudy.com.MultiBrowserTesting@5e0826e7]" name="tearDown" is-config="true" duration-ms="863" started-at="2019-11-18T00:57:55Z" finished-at="2019-11-18T00:57:56Z">
+        </test-method> <!-- verifySameDataTest -->
+        <test-method status="PASS" signature="verifySameDataTest(java.lang.String, java.lang.String)[pri:2, instance:selenium.selfstudy.com.DiffrentDataForDiffrentMethodTest@3ffc5af1]" name="verifySameDataTest" duration-ms="6233" started-at="2019-11-21T15:53:38Z" data-provider="dataprovider" finished-at="2019-11-21T15:53:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gosling]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium.selfstudy.com.MultiBrowserTesting -->
-    </test> <!-- DemoTestFirefox -->
-  </suite> <!-- TestSuite -->
+        </test-method> <!-- verifySameDataTest -->
+      </class> <!-- selenium.selfstudy.com.DiffrentDataForDiffrentMethodTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

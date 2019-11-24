@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="TestSuite" >
+<suite name="TestSuite">
 	<listeners>
 		<listener class-name="selenium.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
@@ -12,9 +12,10 @@
 			<class name="selenium.selfstudy.com.BrokenListTest" />
 			<class name="selenium.selfstudy.com.DataBaseConnectivityTest" />
 			<class name="selenium.selfstudy.com.DataTableReader" />
-			<class name="selenium.selfstudy.com.DataTableReader" />
 			<class name="selenium.selfstudy.com.DataProviderTest" />
-
+			<class name="selenium.selfstudy.com.ImageComparison" />
+			<class name="selenium.selfstudy.com.DiffrentDataForDiffrentMethodTest" />
+			<class name="selenium.selfstudy.com.ResizeWindow" />
 
 		</classes>
 	</test> <!-- DemoTest -->
